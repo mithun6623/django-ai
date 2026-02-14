@@ -9,7 +9,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
+# Use '*' for testing, or add your specific .onrender.com domain
+ALLOWED_HOSTS = ['django-ai-1-cjv0.onrender.com', 'localhost', '127.0.0.1']
 
 
 # APPLICATIONS
